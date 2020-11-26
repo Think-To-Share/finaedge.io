@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.latest-blog .latest-blog-head {
+  text-align: center;
+}
+
 .trusted_partner .tp_head {
   font-weight: 700;
   font-size: 3em;
