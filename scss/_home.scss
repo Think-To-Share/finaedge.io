@@ -1,0 +1,151 @@
+body
+{
+    margin:0;
+    padding: 0;
+}
+
+//trusted partner
+.trusted_partner
+{
+    .tp_head
+    {
+        font-weight: 700;
+        font-size: 3em;
+        // font-family: $primary;
+        color: #474747;
+
+    }
+    .tp_sub_head
+    {
+        font-weight: 500; 
+        font-size: 1.4em;
+        // font-family: $primary;
+        color: #979ba4;
+    }
+    .tp-icon
+    {
+        width: 10%;
+    }
+}
+
+
+// footer
+.footer
+{
+    background-color: #000000;
+    .footer-white-text {
+        color: #fff;
+        // font-family: $primary-font;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .footer-link-menu {
+        color: #979cab;
+        // font-family: $primary-font;
+        font-weight: 300;
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+
+    }
+    .footer-description
+    {
+        color: #979cab;
+        // font-family: $primary-font;
+        font-weight: 300;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    .phone
+    {
+        color: #fff;
+        // font-family: $primary-font;
+        font-weight: 300;
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+    }
+    .email
+    {
+        color: #fff;
+        // font-family: $primary-font;
+        font-weight: 300;
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+    }
+    .icon {
+        padding: 0 6px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        i {
+            padding: 12px;
+            background: #fff;
+            color: #3a3a3a;
+            border-radius: 10%;
+            height: 40px;
+            width: 40px;
+            line-height: 1.2;
+            text-align: center;
+            transition: 0.3s ease-in-out;
+
+            &.fa-facebook-f {
+                &:hover {
+                    color: #1877f2;
+                }
+            }
+
+            &.fa-twitter {
+                &:hover {
+                    color: #1da1f2;
+                }
+            }
+
+            &.fa-instagram {
+                &:hover {
+                    color: #c32aa3;
+                }
+            }
+        }
+    }
+
+}
+
+//bottom ribbon
+.bottom-ribbon {
+    background-color: #000;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    .hulk
+    {
+        color: #8fbe1e;
+    }
+    .copyright {
+        margin-top: 1rem;
+        color: #6e6e6e;
+        // font-family: $primary-font;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+    }
+
+    .developed-by {
+        margin-top: 1rem;
+        color: #6e6e6e;
+        // font-family: $primary-font;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+    }
+}
