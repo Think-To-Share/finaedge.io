@@ -7,9 +7,70 @@ body
 //latest blog
 .latest-blog
 {
-    .latest-blog-head
+    .latest-blog-section-head
     {
         text-align: center;
+        color: #474747;
+        font-weight:700;
+        font-size: 3em;
+        // font-family:$primary;
+    }
+    .latest-blog-sub-header
+    {
+        text-align: center;
+        color: #474747;
+        // font-family:$primary;
+        text-align: center;
+        color: #545454;
+        font-weight: 500;
+    }
+    .card-img-top
+    {
+        width:20%;
+    }
+    .latest-blog-head
+    {
+        text-align: left;
+    }
+
+    .learn-more
+    {
+        
+    }
+}
+
+//latest blog 2
+.latest-blog-2
+{
+    .latest-blog-section-head
+    {
+        text-align: center;
+        color: #474747;
+        font-weight:700;
+        font-size: 3em;
+        // font-family:$primary;
+    }
+    .latest-blog-sub-header
+    {
+        text-align: center;
+        color: #474747;
+        // font-family:$primary;
+        text-align: center;
+        color: #545454;
+        font-weight: 500;
+    }
+    .card-img-top
+    {
+        width:20%;
+    }
+    .latest-blog-head
+    {
+        text-align: left;
+    }
+
+    .learn-more
+    {
+        
     }
 }
 
@@ -55,7 +116,6 @@ body
         font-size: 1.1em;
         text-align: center;
         text-decoration: none;
-
     }
     .footer-description
     {

@@ -3,8 +3,50 @@ body {
   padding: 0;
 }
 
-.latest-blog .latest-blog-head {
+.latest-blog .latest-blog-section-head {
   text-align: center;
+  color: #474747;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.latest-blog .latest-blog-sub-header {
+  text-align: center;
+  color: #474747;
+  text-align: center;
+  color: #545454;
+  font-weight: 500;
+}
+
+.latest-blog .card-img-top {
+  width: 20%;
+}
+
+.latest-blog .latest-blog-head {
+  text-align: left;
+}
+
+.latest-blog-2 .latest-blog-section-head {
+  text-align: center;
+  color: #474747;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.latest-blog-2 .latest-blog-sub-header {
+  text-align: center;
+  color: #474747;
+  text-align: center;
+  color: #545454;
+  font-weight: 500;
+}
+
+.latest-blog-2 .card-img-top {
+  width: 20%;
+}
+
+.latest-blog-2 .latest-blog-head {
+  text-align: left;
 }
 
 .trusted_partner .tp_head {
