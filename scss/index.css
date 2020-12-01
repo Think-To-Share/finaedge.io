@@ -49,6 +49,14 @@ body {
   text-align: left;
 }
 
+.latest-blog-2 .card-text-blog2 {
+  color: #686868;
+}
+
+.latest-blog-2 .blog-date {
+  font-size: 0.8em;
+}
+
 .trusted_partner .tp_head {
   font-weight: 700;
   font-size: 3em;
@@ -63,6 +71,62 @@ body {
 
 .trusted_partner .tp-icon {
   width: 10%;
+}
+
+.consultancy {
+  background-image: url("../images/fixed.jpg");
+  background-attachment: fixed;
+}
+
+.consultancy .bottom-header {
+  font-size: 3em;
+  font-weight: 700;
+  color: #fff;
+}
+
+.consultancy .white-box {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.278431);
+          box-shadow: 0 0 16px rgba(0, 0, 0, 0.278431);
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.consultancy .accordian-head {
+  color: #484848;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.consultancy .faq-row {
+  border: 1px solid #c2c2c2;
+  border-radius: 12px;
+  outline: none;
+  margin-bottom: 2%;
+}
+
+.consultancy .faq-button {
+  border: none !important;
+}
+
+.consultancy .faq-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.consultancy .faq-button:not(.collapsed) {
+  background: transparent;
+  color: #323232;
+}
+
+.consultancy .faq-body {
+  border: none;
+}
+
+.consultancy .pointer-head {
+  color: #484848;
+  font-size: 2.3em;
+  font-weight: 700;
 }
 
 .footer {
