@@ -18,6 +18,13 @@ body {
   font-weight: 500;
 }
 
+.latest-blog .blog-card:hover {
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.278431);
+          box-shadow: 0 0 16px rgba(0, 0, 0, 0.278431);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .latest-blog .card-img-top {
   width: 20%;
 }
@@ -42,9 +49,11 @@ body {
 }
 
 .latest-blog .green-btn:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .latest-blog-2 .latest-blog-section-head {
@@ -94,9 +103,11 @@ body {
 }
 
 .latest-blog-2 .green-btn:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .trusted_partner .tp_head {
@@ -142,9 +153,11 @@ body {
 }
 
 .consultancy .green-btn:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .consultancy .white-box {
