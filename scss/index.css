@@ -26,6 +26,27 @@ body {
   text-align: left;
 }
 
+.latest-blog .green-btn {
+  outline: none;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#80b510), to(#32922e));
+  background-image: linear-gradient(to right, #80b510, #32922e);
+  color: #fff;
+  border-radius: 25px;
+  padding: 7px 23px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .17s ease-in-out;
+  transition: -webkit-transform .17s ease-in-out;
+  transition: transform .17s ease-in-out;
+  transition: transform .17s ease-in-out, -webkit-transform .17s ease-in-out;
+}
+
+.latest-blog .green-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  text-decoration: none;
+}
+
 .latest-blog-2 .latest-blog-section-head {
   text-align: center;
   color: #474747;
@@ -57,6 +78,27 @@ body {
   font-size: 0.8em;
 }
 
+.latest-blog-2 .green-btn {
+  outline: none;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#80b510), to(#32922e));
+  background-image: linear-gradient(to right, #80b510, #32922e);
+  color: #fff;
+  border-radius: 25px;
+  padding: 7px 23px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .17s ease-in-out;
+  transition: -webkit-transform .17s ease-in-out;
+  transition: transform .17s ease-in-out;
+  transition: transform .17s ease-in-out, -webkit-transform .17s ease-in-out;
+}
+
+.latest-blog-2 .green-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  text-decoration: none;
+}
+
 .trusted_partner .tp_head {
   font-weight: 700;
   font-size: 3em;
@@ -82,6 +124,27 @@ body {
   font-size: 3em;
   font-weight: 700;
   color: #fff;
+}
+
+.consultancy .green-btn {
+  outline: none;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#80b510), to(#32922e));
+  background-image: linear-gradient(to right, #80b510, #32922e);
+  color: #fff;
+  border-radius: 25px;
+  padding: 7px 23px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .17s ease-in-out;
+  transition: -webkit-transform .17s ease-in-out;
+  transition: transform .17s ease-in-out;
+  transition: transform .17s ease-in-out, -webkit-transform .17s ease-in-out;
+}
+
+.consultancy .green-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  text-decoration: none;
 }
 
 .consultancy .white-box {
