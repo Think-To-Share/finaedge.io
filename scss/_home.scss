@@ -3,7 +3,65 @@ body
     margin:0;
     padding: 0;
 }
+// hero 
+.hero
+{
+    background-image: url('../images/hero-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .text-container
+    {
+        margin-top: 26%;
+    }
+    .green-text
+    {
+        color: #32922e;
+    }
 
+    p
+    {
+        margin-bottom: 0;
+    }
+    .hero-text-1
+    {
+        font-family: 'Mulish', sans-serif;
+        color: #fff;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .hero-text-2
+    {
+        font-family: 'Mulish', sans-serif;
+        color: #fff;
+        font-size: 3.5em;
+        font-weight: 700;
+    }
+    .hero-text-3
+    {
+        color: #fff;
+        font-family: 'Mulish', sans-serif;
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+    .green-btn
+    {
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #80b510 ,#32922e);
+        color: #fff;
+        border-radius: 25px;
+        padding: 7px 23px;
+        cursor: pointer;
+        transition: transform .17s ease-in-out;
+    }
+    .green-btn:hover
+    {
+        transform: scale(1.1);
+        text-decoration: none;
+        transition: 0.3s;
+    }
+}
 //latest blog
 .latest-blog
 {
@@ -56,6 +114,56 @@ body
         transform: scale(1.1);
         text-decoration: none;
         transition: 0.3s;
+    }
+}
+
+//gray-wave-section
+.gray-wave
+{
+    background-image: url('../images/gray-wave.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .gray-head
+    {
+        font-family: 'Mulish', sans-serif;
+        font-size: 2.5em;
+        font-weight: 700;
+        color: #484848;
+        
+
+    }
+    .gray-sub-head
+    {
+        font-family: 'Mulish', sans-serif;
+        color: #484848;
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .gray-card
+    {
+        border-radius: 16px;
+        transition: background-image 0.9s;
+        box-shadow: 0 0 16px rgba(221, 220, 220, 0.278);
+        cursor: pointer;
+    }
+    .gray-card:hover
+    {
+        background-image: linear-gradient( #193676 ,#2c4680);
+        color: #fff;
+        
+    }
+    .gray-title
+    {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+    }
+    .gray-text
+    {
+        color: #727272;
+        font-family: 'Mulish', sans-serif;
+        font-size: 0.9em;
+        font-weight: 500;
     }
 }
 
@@ -145,6 +253,13 @@ body
 {
     background-image: url('../images/fixed.jpg');
     background-attachment: fixed;
+    position: relative;
+    .curve
+    {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
     .bottom-header
     {
         font-size: 3em;
@@ -174,6 +289,7 @@ body
         box-shadow: 0 0 16px rgba(0,0,0,.2784313725490196);
         border-radius: 20px;
         padding: 5%;
+        position: relative;;
     }
     .accordian-head
     {
