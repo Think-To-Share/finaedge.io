@@ -267,7 +267,7 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1212px) {
   .hero .hero-text-1 {
     font-size: 2em;
   }
@@ -280,7 +280,7 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1212px) {
   .hero .hero-text-2 {
     font-size: 3.5em;
   }
@@ -466,9 +466,17 @@ body {
   width: 89%;
 }
 
+@media (min-width: 768px) {
+  .gray-wave .discuss {
+    width: 100%;
+    padding-top: 50%;
+  }
+}
+
 @media (min-width: 992px) {
   .gray-wave .discuss {
     width: 100%;
+    padding-top: 50%;
   }
 }
 
@@ -505,7 +513,14 @@ body {
   transition: 0.7s ease-out;
   -webkit-box-shadow: 0 0 16px rgba(221, 220, 220, 0.278);
           box-shadow: 0 0 16px rgba(221, 220, 220, 0.278);
+  width: 100%;
   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .gray-wave .gray-card {
+    width: 85%;
+  }
 }
 
 .gray-wave .gray-title {
@@ -680,12 +695,19 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    text-align: left;
   }
 }
 
 .trusted_partner .tp-icon-box .tp-icon {
   margin-right: 10px;
   width: 20%;
+}
+
+@media (min-width: 790px) {
+  .trusted_partner .tp-icon-box .tp-icon {
+    width: 13%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -697,6 +719,12 @@ body {
 .trusted_partner .tp-icon-box p {
   margin-bottom: 0;
   font-size: 1.3em;
+}
+
+@media (min-width: 790px) {
+  .trusted_partner .tp-icon-box p {
+    font-size: 0.8em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -971,11 +999,12 @@ body {
 @media (min-width: 992px) {
   .footer .social-icons {
     display: block;
+    text-align: center;
   }
 }
 
 .footer .icon {
-  padding: 0 6px;
+  padding: 1px;
 }
 
 .footer .icon:first-child {

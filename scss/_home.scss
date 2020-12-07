@@ -209,7 +209,7 @@ body {
         color: #fff;
         font-size: 1em;
         font-weight: 700;
-        @media (min-width: 992px) {
+        @media (min-width: 1212px) {
             font-size: 2em;
         }
     }
@@ -218,7 +218,7 @@ body {
         color: #fff;
         font-size: 2em;
         font-weight: 700;
-        @media (min-width: 992px) {
+        @media (min-width: 1212px) {
             font-size: 3.5em;
         }
     }
@@ -353,8 +353,13 @@ body {
     background-position: center;
     .discuss {
         width: 89%;
+        @media (min-width: 768px) {
+            width: 100%;
+            padding-top: 50%;
+        }
         @media (min-width: 992px) {
             width: 100%;
+            padding-top: 50%;
         }
     }
     .gray-head {
@@ -380,7 +385,11 @@ body {
         padding: 18px 0;
         transition: 0.7s ease-out;
         box-shadow: 0 0 16px rgba(221, 220, 220, 0.278);
+        width: 100%;
         cursor: pointer;
+        @media (min-width: 992px) {
+            width: 85%;
+        }
     }
 
     .gray-title {
@@ -512,10 +521,14 @@ body {
         flex-direction: column;
         @media (min-width: 992px) {
             flex-direction: row;
+            text-align: left;
         }
         .tp-icon {
             margin-right: 10px;
             width: 20%;
+            @media (min-width: 790px) {
+                width: 13%;
+            }
             @media (min-width: 992px) {
                 width: 10%;
             }
@@ -523,6 +536,9 @@ body {
         p {
             margin-bottom: 0;
             font-size: 1.3em;
+            @media (min-width: 790px) {
+                font-size: 0.8em;
+            }
             @media (min-width: 992px) {
                 font-size: 1em;
             }
@@ -728,11 +744,12 @@ body {
         justify-content: center;
         @media (min-width: 992px) {
             display: block;
+            text-align: center;
         }
     }
 
     .icon {
-        padding: 0 6px;
+        padding: 1px;
 
         &:first-child {
             padding-left: 0;
