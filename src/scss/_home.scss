@@ -30,18 +30,18 @@ body {
     #bar3 {
         transform: translateY(4px);
     }
-    .nav li a {
+    .fe-nav li a {
         color: #fff;
         text-decoration: none;
     }
-    .nav li a:hover {
+    .fe-nav li a:hover {
         font-weight: bold;
     }
-    .nav li {
+    .fe-nav li {
         list-style: none;
         padding: 16px 0;
     }
-    .nav {
+    .fe-nav {
         padding: 0;
         margin: 0 20px;
         transition: 0.3s ease;
@@ -669,13 +669,45 @@ body {
 // footer
 .footer {
     background-color: #000000;
+    .white-text-menu
+    {
+        .menu-footer-company-container
+        {
+            ul{
+                list-style: none;
+            }
+           
+            a{
+                color:#fff !important;
+                text-decoration: none;
+                list-style-type: none;
+                font-weight: lighter;
+            }
+                
+        }
+        .menu-footer-information-container
+        {
+            ul{
+                list-style: none;
+            }
+           
+            a{
+                color:#fff !important;
+                text-decoration: none;
+                list-style-type: none;
+                font-weight: lighter;
+            }
+                
+        }
+        
+    }
 
     .logo {
         display: flex;
         justify-content: center;
     }
     .footer-white-text {
-        color: #fff;
+        color: rgb(255, 255, 255);
         // font-family: $primary-font;
         font-size: 1em;
         font-weight: 700;
