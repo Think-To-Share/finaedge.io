@@ -17107,7 +17107,7 @@ body {
   margin-bottom: 0;
 }
 .hero .hero-text-1 {
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   color: #fff;
   font-size: 1em;
   font-weight: 700;
@@ -17118,7 +17118,7 @@ body {
   }
 }
 .hero .hero-text-2 {
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   color: #fff;
   font-size: 2em;
   font-weight: 700;
@@ -17130,7 +17130,7 @@ body {
 }
 .hero .hero-text-3 {
   color: #fff;
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   font-size: 0.9em;
   font-weight: 500;
 }
@@ -17298,7 +17298,7 @@ body {
   }
 }
 .gray-wave .gray-head {
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   font-size: 1.5em;
   font-weight: 700;
   color: #484848;
@@ -17309,7 +17309,7 @@ body {
   }
 }
 .gray-wave .gray-sub-head {
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   color: #484848;
   font-size: 0.8em;
   font-weight: 600;
@@ -17335,7 +17335,7 @@ body {
   }
 }
 .gray-wave .gray-title {
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   font-weight: 800;
   text-align: center;
 }
@@ -17346,7 +17346,7 @@ body {
 }
 .gray-wave .gray-text {
   color: #353232;
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   font-size: 0.9em;
   font-weight: 500;
   text-align: center;
@@ -17535,7 +17535,7 @@ body {
   color: #fff;
   border-radius: 15px 15px 0px 15px;
   padding: 45px 60px;
-  font-family: "Mulish", sans-serif;
+  font-family: muli, sans-serif;
   position: relative;
   margin-top: 14%;
 }
@@ -17687,13 +17687,13 @@ body {
 }
 @media (min-width: 992px) {
   .footer .footer-white-text {
-    text-align: center;
+    text-align: left;
   }
 }
 .footer .footer-link-menu {
   color: #979cab;
   font-weight: 300;
-  font-size: 1.1em;
+  font-size: 16px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17706,7 +17706,8 @@ body {
 }
 @media (min-width: 992px) {
   .footer .footer-link-menu {
-    text-align: center;
+    display: block;
+    text-align: left;
   }
 }
 .footer .footer-link-menu:hover {
@@ -17779,7 +17780,7 @@ body {
 @media (min-width: 992px) {
   .footer .social-icons {
     display: block;
-    text-align: center;
+    text-align: left;
   }
 }
 .footer .icon {
