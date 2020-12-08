@@ -104,6 +104,10 @@ body {
     top: 0;
     left: 0;
     padding: 20px 0;
+    .contact-text
+    {
+        font-family: muli, sans-serif;
+    }
     .fg-contact-row {
         display: none;
         @media (min-width: 992px) {
@@ -263,6 +267,13 @@ body {
             font-size: 3em;
         }
     }
+    .latest-blog-text {
+        text-align: center;
+        color:#676767;
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+    }
     .latest-blog-sub-header {
         text-align: center;
         color: #474747;
@@ -299,7 +310,9 @@ body {
             box-shadow: 0px 12px 10px 2px rgba(25, 54, 118, 0.5);
             transform: translateY(-10px);
             color: #fff;
-
+            .latest-blog-text {
+                color: #fff;
+            }
             .card-img-top {
                 &.normal {
                     display: none;
@@ -317,16 +330,13 @@ body {
 
     .latest-blog-head {
         text-align: center;
+        font-family: muli, sans-serif;
+        font-weight: 800;
         @media (min-width: 992px) {
             text-align: left;
         }
     }
-    .latest-blog-text {
-        text-align: center;
-        @media (min-width: 992px) {
-            text-align: left;
-        }
-    }
+    
 
     .green-btn {
         outline: none;
@@ -365,7 +375,7 @@ body {
     .gray-head {
         font-family: muli, sans-serif;
         font-size: 1.5em;
-        font-weight: 700;
+        font-weight: 800;
         color: #484848;
         @media (min-width: 992px) {
             font-size: 2.5em;
@@ -401,7 +411,7 @@ body {
         }
     }
     .gray-text {
-        color: #353232;
+        color: #676767;
         font-family: muli, sans-serif;
         font-size: 0.9em;
         font-weight: 500;
@@ -455,20 +465,23 @@ body {
     .latest-blog-sub-header {
         text-align: center;
         color: #474747;
-        // font-family:$primary;
+        font-family: muli, sans-serif;
         text-align: center;
         color: #545454;
-        font-weight: 500;
+        font-weight: 600;
     }
     .card-img-top {
         width: 20%;
     }
     .latest-blog-head {
         text-align: left;
+        font-family: muli, sans-serif;
+        font-weight: 800;
     }
 
     .card-text-blog2 {
         color: #686868;
+        font-family: muli, sans-serif;
     }
     .blog-date {
         font-size: 0.8em;
@@ -494,9 +507,9 @@ body {
 //trusted partner
 .trusted_partner {
     .tp_head {
-        font-weight: 700;
+        font-weight: 800;
         font-size: 1.5em;
-        // font-family: $primary;
+        font-family: muli, sans-serif;
         text-align: center;
         color: #474747;
         @media (min-width: 992px) {
@@ -505,20 +518,23 @@ body {
         }
     }
     .tp_sub_head {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 0.9em;
-        // font-family: $primary;
+        font-family: muli, sans-serif;
         color: #979ba4;
         text-align: center;
         @media (min-width: 992px) {
             text-align: left;
-            font-size: 1.4em;
+            font-size: 1.1em;
         }
     }
     .tp-icon-box {
         margin-bottom: 1rem;
         align-items: center;
         flex-direction: column;
+        font-family: muli, sans-serif;
+        font-weight: 600;
+        color: #4c505a;
         @media (min-width: 992px) {
             flex-direction: row;
             text-align: left;
@@ -566,18 +582,22 @@ body {
 
         .heading {
             font-size: 1em;
-            font-weight: 600;
+            font-weight: 800;
+            font-family: muli, sans-serif;
             @media (min-width: 992px) {
                 font-size: 2.5em;
             }
         }
         .t-text {
             font-size: 0.8em;
+            font-family: muli, sans-serif;
+            font-weight: 400;
             @media (min-width: 992px) {
                 font-size: 1em;
             }
         }
         .texted-by {
+            font-family: muli, sans-serif;
             color: #89b90c;
             font-weight: 500;
         }
@@ -605,7 +625,8 @@ body {
     }
     .bottom-header {
         font-size: 3em;
-        font-weight: 700;
+        font-weight: 800;
+        font-family: muli, sans-serif;
         color: #fff;
     }
     .green-btn {
@@ -616,6 +637,7 @@ body {
         border-radius: 25px;
         padding: 7px 23px;
         cursor: pointer;
+        font-family: muli, sans-serif;
         transition: transform 0.17s ease-in-out;
     }
     .green-btn:hover {
@@ -629,11 +651,23 @@ body {
         border-radius: 20px;
         padding: 5%;
         position: relative;
+        .btn-text
+        {
+            font-family: muli, sans-serif;
+            font-weight: 700;
+        }
+        .accord-text
+        {
+            font-family: muli, sans-serif;
+            font-weight: 400;
+            color: #474747;
+        }
     }
     .accordian-head {
         color: #484848;
         font-size: 2.3em;
-        font-weight: 700;
+        font-weight: 800;
+        font-family: muli, sans-serif;
     }
     .faq-row {
         border: 1px solid #c2c2c2;
@@ -659,7 +693,10 @@ body {
     .pointer-head {
         color: #484848;
         font-size: 2.3em;
-        font-weight: 700;
+        font-weight: 800;
+        font-family: muli, sans-serif;
+        font-family: muli, sans-serif;
+        color: #474747;
 
         .pointer-head {
         }
@@ -708,7 +745,7 @@ body {
     }
     .footer-white-text {
         color: rgb(255, 255, 255);
-        // font-family: $primary-font;
+        font-family: muli, sans-serif;
         font-size: 1em;
         font-weight: 700;
         text-align: center;
@@ -835,7 +872,7 @@ body {
     .copyright {
         margin-top: 1rem;
         color: #6e6e6e;
-        // font-family: $primary-font;
+        font-family: muli, sans-serif;
         text-align: center;
 
         @media (min-width: 992px) {
@@ -846,7 +883,7 @@ body {
     .developed-by {
         margin-top: 1rem;
         color: #6e6e6e;
-        // font-family: $primary-font;
+        font-family: muli, sans-serif;
         text-align: center;
 
         @media (min-width: 992px) {
