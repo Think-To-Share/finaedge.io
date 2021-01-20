@@ -17539,6 +17539,59 @@ body {
   }
 }
 
+.clients-and-partners-section h2, .clients-and-partners-section .h2 {
+  text-align: center;
+  font-family: "muli", sans-serif;
+  font-weight: 800;
+  color: #474747;
+  margin-bottom: 20px;
+}
+.clients-and-partners-section .btn-section {
+  text-align: center;
+}
+.clients-and-partners-section .btn {
+  font-weight: 700;
+  font-family: "muli", sans-serif;
+  background-color: #eaeaea;
+  border-radius: 10em;
+  color: #a6a5a5;
+  padding: 8px 40px;
+}
+.clients-and-partners-section .btn:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#80b510), to(#32922e));
+  background-image: linear-gradient(to right, #80b510, #32922e);
+  -webkit-transition: background-image 1s ease-in-out;
+  transition: background-image 1s ease-in-out;
+  color: #fff;
+}
+
+.brand-section .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 120px;
+}
+.brand-section .container .client {
+  border: 2px solid #eaeaea;
+  padding: 38px 40px;
+  margin: 15px;
+  border-radius: 15px;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in-out;
+  transition: -webkit-box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out, -webkit-box-shadow 0.5s ease-in-out;
+}
+.brand-section .container .client:hover {
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 20px 4px #0000001c;
+          box-shadow: 1px 3px 20px 4px #0000001c;
+}
+
 .testimonial .star {
   width: 80%;
   padding-top: 30px;
