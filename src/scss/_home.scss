@@ -104,25 +104,31 @@ body {
     top: 0;
     left: 0;
     padding: 20px 0;
-    .contact-text
-    {
+
+    .contact-text {
         font-family: muli, sans-serif;
     }
+
     .fg-contact-row {
         display: none;
+
         @media (min-width: 992px) {
             display: block;
         }
     }
+
     .fg-menu-row {
         display: none;
+
         @media (min-width: 992px) {
             display: block;
         }
     }
+
     .green-text {
         color: #32922e;
     }
+
     .green-btn {
         outline: none;
         border: none;
@@ -149,6 +155,8 @@ body {
             color: #fff;
             font-size: 0.8em;
             padding: 0px 10px;
+            position: relative;
+            
             a {
                 text-decoration: none;
                 color: #fff;
@@ -169,9 +177,64 @@ body {
 
                 &:hover {
                     color: #32922e;
+                    
                     &::after {
                         width: 50%;
                     }
+                }
+            }
+
+            ul {
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                background-color: #fff;
+                min-width: 10rem;
+                z-index: 5;
+                display: none;
+
+                li {
+                    font-size: 1em;
+                    padding: 0;
+                    border-bottom: 1px solid #8e8e8e;
+
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+
+                   a {
+                        color: #000;
+                        font-size: 1em;
+                        padding: 10px;
+                        width: 100%;
+                        display: inline-block;
+                        transition: background-color 0.2s ease-out;
+
+                       &:hover {
+                            color: #fff;
+                            background-color: #32922e;
+
+                           &::after {
+                               display: none;
+                           }
+                       }
+                   } 
+                }
+            }
+
+            > ul {
+                left: 0;
+                top: 100%;
+
+                ul {
+                    left: 100%;
+                    top: 0;
+                }
+            }
+
+            &:hover {
+                > ul {
+                    display: block;
                 }
             }
         }
@@ -269,7 +332,7 @@ body {
     }
     .latest-blog-text {
         text-align: center;
-        color:#676767;
+        color: #676767;
         @media (min-width: 992px) {
             text-align: left;
         }
@@ -336,7 +399,6 @@ body {
             text-align: left;
         }
     }
-    
 
     .green-btn {
         outline: none;
@@ -563,54 +625,53 @@ body {
 }
 
 // clients and partners
-    .clients-and-partners-section{
-        h2{
-            text-align: center;
-            font-family:'muli',sans-serif;
-            font-weight:800 ;
-            color:#474747;
-            margin-bottom:20px;
-        }
-        .btn-section{
-            text-align: center;
-        }
-        .btn{
-            font-weight:700;
-            font-family: 'muli',sans-serif;
-            background-color: #eaeaea;
-            border-radius: 10em;
-            color:#a6a5a5;
-            padding:8px 40px;
-
-            &:hover{
-                background-image: linear-gradient(to right, #80b510, #32922e);
-                transition: background-image 1s ease-in-out;
-                color: #fff;
-            }
-        }
-        
-        
+.clients-and-partners-section {
+    h2 {
+        text-align: center;
+        font-family: 'muli', sans-serif;
+        font-weight: 800;
+        color: #474747;
+        margin-bottom: 20px;
     }
-    .brand-section{
-        .container{
-            display: flex;
-            justify-content: center;
-            margin:40px 120px;
+    .btn-section {
+        text-align: center;
+    }
+    .btn {
+        font-weight: 700;
+        font-family: 'muli', sans-serif;
+        background-color: #eaeaea;
+        border-radius: 10em;
+        color: #a6a5a5;
+        padding: 8px 40px;
 
-            .client{
-                border:2px solid #eaeaea;
-                padding:38px 40px;
-                margin:15px;
-                border-radius: 15px;
-                transition: box-shadow 0.5s ease-in-out;
+        &:hover {
+            background-image: linear-gradient(to right, #80b510, #32922e);
+            transition: background-image 1s ease-in-out;
+            color: #fff;
+        }
+    }
+}
+.brand-section {
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 53px;
 
-                &:hover{
-                    background-color: white;
-                    box-shadow:1px 3px 20px 4px #0000001c;
-                }
+        .client {
+            border: 2px solid #eaeaea;
+            padding: 38px 40px;
+            margin: 15px;
+            border-radius: 15px;
+            transition: box-shadow 0.5s ease-in-out;
+
+            &:hover {
+                background-color: white;
+                box-shadow: 1px 3px 20px 4px #0000001c;
             }
         }
     }
+}
 
 //testimonial
 .testimonial {
@@ -701,13 +762,11 @@ body {
         border-radius: 20px;
         padding: 5%;
         position: relative;
-        .btn-text
-        {
+        .btn-text {
             font-family: muli, sans-serif;
             font-weight: 700;
         }
-        .accord-text
-        {
+        .accord-text {
             font-family: muli, sans-serif;
             font-weight: 400;
             color: #474747;
@@ -756,37 +815,31 @@ body {
 // footer
 .footer {
     background-color: #000000;
-    .white-text-menu
-    {
-        .menu-footer-company-container
-        {
-            ul{
+    .white-text-menu {
+        .menu-footer-company-container {
+            ul {
                 list-style: none;
             }
-           
-            a{
-                color:#fff !important;
+
+            a {
+                color: #fff !important;
                 text-decoration: none;
                 list-style-type: none;
                 font-weight: lighter;
             }
-                
         }
-        .menu-footer-information-container
-        {
-            ul{
+        .menu-footer-information-container {
+            ul {
                 list-style: none;
             }
-           
-            a{
-                color:#fff !important;
+
+            a {
+                color: #fff !important;
                 text-decoration: none;
                 list-style-type: none;
                 font-weight: lighter;
             }
-                
         }
-        
     }
 
     .logo {

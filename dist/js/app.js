@@ -7720,9 +7720,9 @@ __webpack_require__(/*! ../scss/app.scss */ "./src/scss/app.scss");
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 
 document.querySelector('.burger-nav #menu').addEventListener('click', function () {
-  document.querySelector("#menu").classList.toggle("change");
-  document.querySelector(".fe-nav").classList.toggle("change");
-  document.querySelector("#menu-bg").classList.toggle("change-bg"); // document.querySelector('body').classList.toggle('nav-menu-opened')
+  document.querySelector('#menu').classList.toggle('change');
+  document.querySelector('.fe-nav').classList.toggle('change');
+  document.querySelector('#menu-bg').classList.toggle('change-bg'); // document.querySelector('body').classList.toggle('nav-menu-opened')
 });
 }();
 /******/ })()
