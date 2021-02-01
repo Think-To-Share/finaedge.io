@@ -17924,6 +17924,11 @@ body {
     text-align: left;
   }
 }
+.footer .social-icons img {
+  border-radius: 7px;
+  height: 30px;
+  width: 30px;
+}
 .footer .icon {
   padding: 1px;
 }
