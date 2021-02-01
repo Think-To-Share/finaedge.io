@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -942,6 +946,7 @@ body {
             line-height: 1.2;
             text-align: center;
             transition: 0.3s ease-in-out;
+            margin-bottom:5px;
 
             &.fa-facebook-f {
                 &:hover {
@@ -958,6 +963,11 @@ body {
             &.fa-instagram {
                 &:hover {
                     color: #c32aa3;
+                }
+            }
+            &.fa-linkedin {
+                &:hover {
+                    color: #0077B5;
                 }
             }
         }

@@ -16879,6 +16879,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17940,6 +17944,7 @@ body {
   text-align: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  margin-bottom: 5px;
 }
 .footer .icon i.fa-facebook-f:hover {
   color: #1877f2;
@@ -17949,6 +17954,9 @@ body {
 }
 .footer .icon i.fa-instagram:hover {
   color: #c32aa3;
+}
+.footer .icon i.fa-linkedin:hover {
+  color: #0077B5;
 }
 
 .bottom-ribbon {
