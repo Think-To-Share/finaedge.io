@@ -1,5 +1,6 @@
 require('../scss/app.scss')
 require('bootstrap')
+require('./_homepage');
 
 document.querySelector('.burger-nav #menu').addEventListener('click', () => {
     document.querySelector('#menu').classList.toggle('change')

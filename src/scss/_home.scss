@@ -630,6 +630,8 @@ body {
 
 // clients and partners
 .clients-and-partners-section {
+    margin-bottom: 95px;
+
     h2 {
         text-align: center;
         font-family: 'muli', sans-serif;
@@ -637,41 +639,68 @@ body {
         color: #474747;
         margin-bottom: 20px;
     }
+
     .btn-section {
         text-align: center;
-    }
-    .btn {
-        font-weight: 700;
-        font-family: 'muli', sans-serif;
-        background-color: #eaeaea;
-        border-radius: 10em;
-        color: #a6a5a5;
-        padding: 8px 40px;
 
-        &:hover {
-            background-image: linear-gradient(to right, #80b510, #32922e);
-            transition: background-image 1s ease-in-out;
-            color: #fff;
+        .btn {
+            font-weight: 700;
+            font-family: 'muli', sans-serif;
+            background-color: #eaeaea;
+            border-radius: 10em;
+            color: #a6a5a5;
+            padding: 8px 40px;
+    
+            &:hover,
+            &.active {
+                background-image: linear-gradient(to right, #80b510, #32922e);
+                transition: background-image 1s ease-in-out;
+                color: #fff;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
         }
     }
-}
-.brand-section {
-    .container {
-        display: flex;
-        justify-content: center;
-        margin-top: 25px;
-        margin-bottom: 53px;
 
-        .client {
-            border: 2px solid #eaeaea;
-            padding: 38px 40px;
-            margin: 15px;
-            border-radius: 15px;
-            transition: box-shadow 0.5s ease-in-out;
+    .clients-part {
+        margin-top: 30px;
 
-            &:hover {
-                background-color: white;
-                box-shadow: 1px 3px 20px 4px #0000001c;
+        .clients {
+            display: none;
+            // justify-content: center;
+
+            &.active {
+                display: block;
+            }
+
+            .client {
+                padding: 0 15px;
+
+                .main {
+                    border: 2px solid #eaeaea;
+                    padding: 38px 40px;
+                    margin: 15px 0;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    transition: box-shadow 0.5s ease-in-out;
+
+                    img {
+                        width: 100%;
+                        filter: grayscale(100%);
+                        transition: filter 0.5s ease-in-out;
+                    }
+        
+                    &:hover {
+                        background-color: white;
+                        box-shadow: 1px 3px 20px 4px #0000001c;
+
+                        img {
+                            filter: grayscale(0);
+                        }
+                    }
+                }
             }
         }
     }
@@ -703,6 +732,11 @@ body {
                 font-size: 2.5em;
             }
         }
+
+        .carousel-indicators {
+            margin: 0;
+        }
+
         .t-text {
             font-size: 0.8em;
             font-family: muli, sans-serif;
