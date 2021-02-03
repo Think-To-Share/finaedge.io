@@ -51,6 +51,16 @@ window.addEventListener('load', function () {
       autoplayButtonOutput: false,
       nav: false
     });
+    var partnersSlider = (0,tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__.tns)({
+      container: '#partners',
+      slideBy: 'page',
+      items: 4,
+      autoplay: true,
+      autoplayHoverPause: true,
+      controls: false,
+      autoplayButtonOutput: false,
+      nav: false
+    });
   }
 });
 

@@ -45,5 +45,16 @@ window.addEventListener('load', () => {
             autoplayButtonOutput: false,
             nav: false,
         })
+
+        const partnersSlider = tns({
+            container: '#partners',
+            slideBy: 'page',
+            items: 4,
+            autoplay: true,
+            autoplayHoverPause: true,
+            controls: false,
+            autoplayButtonOutput: false,
+            nav: false,
+        })
     }
 })
