@@ -10,7 +10,7 @@ body {
 
 //burger nav
 .burger-nav {
-    display: flex;
+    display: none;
     @media (min-width: 992px) {
         display: none;
     }
@@ -108,6 +108,10 @@ body {
     top: 0;
     left: 0;
     padding: 20px 0;
+
+    &.white-header{
+        position: relative;
+    }
 
     .contact-text {
         font-family: muli, sans-serif;
@@ -288,7 +292,7 @@ body {
         font-family: muli, sans-serif;
         color: #fff;
         font-size: 2em;
-        font-weight: 700;
+        font-weight: 800;
         @media (min-width: 1212px) {
             font-size: 3.5em;
         }
@@ -1043,3 +1047,99 @@ body {
         }
     }
 }
+.white-header ul li a
+	{
+		color: #000;
+	}
+	.menu
+	{
+		list-style: none;
+    	padding-left: 0;
+		margin: 0;
+	}
+
+	.menu a{
+	
+		color: #979cab;
+		font-weight: 300;
+		font-size: 16px;
+		text-decoration: none;
+		
+	}
+	.menu a:hover
+	{
+		color: #499007;
+	}
+	.widget_nav_menu h2
+	{
+		padding-bottom: 1rem;
+	}
+
+	.menu li 
+	{
+		margin-bottom: 25px;
+		text-align:center;
+		@media (min-width: 992px) {
+			margin-bottom: 25px;
+			text-align:left;
+		}
+	}
+
+	.f-off-add
+	{
+		text-align: center;
+		color: #979cab;
+		font-weight: 300;
+		font-size: 1.1em;
+
+		@media (min-width: 992px) {
+			color: #979cab;
+			font-weight: 300;
+			font-size: 1.1em;   
+        }
+	}
+
+	.textwidget 
+	{
+		text-align: center;
+		@media (min-width: 992px) {
+			text-align:left;
+		}
+	}
+	.textwidget p
+	{
+		text-align: center;
+		color: #979cab;
+		font-weight: 300;
+		font-size: 1.1em;
+
+		@media (min-width: 992px) {
+			color: #979cab;
+			font-weight: 300;
+			font-size: 1.1em;
+            text-align: left;  
+        }
+	}
+
+	.textwidget p:nth-child(4) {
+		color: #fff;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+	.textwidget a
+	{
+		color: #fff;
+		font-weight: 300;
+		font-size: 1.1em;
+		text-decoration: none;
+	}
+
+	.custom-html-widget p
+	{
+		color: #fff;
+		font-family: muli, sans-serif;
+		font-size: 1em;
+		font-weight: 700;
+	}
+
